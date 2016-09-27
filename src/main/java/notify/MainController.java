@@ -21,13 +21,11 @@ public class MainController {
 
     @PostMapping("/")
     public String postIndex(@ModelAttribute PhoneNumber phoneNumber) {
-        System.out.println(phoneNumber.getPhoneNumber());
         return "redirect:/result?phoneNumber=" + phoneNumber.getPhoneNumber();
     }
 
     @GetMapping("/result")
     public String result(@ModelAttribute PhoneNumber phoneNumber) {
-        System.out.println(phoneNumber.getPhoneNumber());
         return "result";
     }
 

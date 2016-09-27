@@ -10,3 +10,13 @@ Uses [http://freemarker.org/](http://freemarker.org/) for templating.
 ```
 ./gradlew bootRun
 ```
+
+## Create idea project files
+```
+./gradlew idea
+```
+
+## Create eclipse project files
+```
+./gradlew eclipse
+```
