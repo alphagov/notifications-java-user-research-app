@@ -10,3 +10,5 @@ Uses [http://freemarker.org/](http://freemarker.org/) for templating.
 ```
 ./gradlew bootRun
 ```
+
+Then go to http://localhost:8080/
