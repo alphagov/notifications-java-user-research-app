@@ -19,6 +19,9 @@ jar {
 
 repositories {
     mavenCentral()
+    maven {
+        url  "http://dl.bintray.com/gov-uk-notify/maven"
+    }
 }
 
 sourceCompatibility = 1.8
@@ -27,6 +30,7 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-freemarker")
     compile("org.springframework.boot:spring-boot-devtools")
+    compile('uk.gov.service.notify:notifications-java-client:2.1.7-RELEASE')
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
