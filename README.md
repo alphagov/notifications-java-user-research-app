@@ -20,3 +20,5 @@ Uses [http://freemarker.org/](http://freemarker.org/) for templating.
 ```
 ./gradlew eclipse
 ```
+
+Then go to http://localhost:8080/
