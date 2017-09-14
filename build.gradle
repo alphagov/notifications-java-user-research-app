@@ -12,6 +12,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
+repositories {
+    mavenCentral()
+}
+
 jar {
     baseName = 'notifications-java-user-research-app'
     version =  '0.1.0'
